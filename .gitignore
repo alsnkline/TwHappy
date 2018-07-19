@@ -1,0 +1,22 @@
+# from https://stackoverflow.com/questions/16869024/what-is-pycache
+# ignoring the __pycache__ folder also
+__pycache__
+*.pyc
+
+# Build Artifacts
+
+.idea/
+.gradle/
+build/
+target/
+bin/
+dependency-reduced-pom.xml
+
+# NO_GIT files and directories
+*NO_GIT.*
+keys_for_sending/
+# no ex- files
+*ex-*
+
+# no ipython checkpoints
+**/*.ipynb_checkpoints
