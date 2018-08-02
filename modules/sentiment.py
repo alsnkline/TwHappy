@@ -6,7 +6,7 @@ from google.cloud.language import enums
 from google.cloud.language import types
 
 PATH = '/Users/alisonkline/Code/'
-GOOGLE_KEY_FILE_NAME = 'TwHappy/res/tw-happy-1531935955393-fb5eb8b48a61.json'
+GOOGLE_KEY_FILE_NAME = 'TwHappy/res/tw-happy-1531935955393-fb5eb8b48a61_NO_GIT.json'
 
 # setting up authentication of the Google Cloud API
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = PATH + GOOGLE_KEY_FILE_NAME

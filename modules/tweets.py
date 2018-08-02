@@ -8,7 +8,7 @@ DEBUG = False
 def get_twitter_api_obj(keys=None):
     """Creating Tweepy API object using provided keys."""
     if not keys:
-        keys = pd.read_csv('res/Test-Twitter-Keys.csv')
+        keys = pd.read_csv('res/Test-Twitter-Keys_NO_GIT.csv')
     # Creating the authentication object
     auth = tweepy.OAuthHandler(keys.consumer_key[0], keys.consumer_secret[0])
     # Setting your access token and secret
