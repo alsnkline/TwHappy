@@ -18,3 +18,5 @@ Command line execution:
 Jypiter Notebook execution (Juypter notebook: [instructions](http://jupyter.org/install)):
     Open notebook, update search term under the **putting it together** section
     Kernel | Restart & Run All
+
+Alison Kline 2021
